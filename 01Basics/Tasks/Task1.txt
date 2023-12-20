@@ -1,0 +1,9 @@
+1. List of Guests 
+2. print the list.
+3. Modify and Add new Guests in the same list.
+4. print the new list.
+5. Sort List in alphabet order.
+
+
+
+guest = []

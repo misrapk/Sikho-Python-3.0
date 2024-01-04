@@ -1,16 +1,18 @@
-#product Class
 
-class Product:   
+class Product:  
+    totalProduct = 0
+     
     def __init__(self, name, price, description):
         self.name = name
         self.price = price
-        self.descirption = description
+        self.description = description
+        Product.totalProduct +=1
         
     def productDetails(self):
         print("\nDetails of the Product: ")
         print(f"Name: {self.name}")
         print(f"Price: {self.price}")
-        print(f"Description: {self.descirption}")
+        print(f"Description: {self.description}")
 
 
 class Book(Product):
